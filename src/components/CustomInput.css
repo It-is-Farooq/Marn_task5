@@ -1,0 +1,42 @@
+/* Container for the form fields */
+.input-wrapper {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  /* Label styling */
+  .input-wrapper label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+  }
+  
+  /* Input field styling */
+  .input-wrapper input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.2s ease;
+  }
+  
+  .input-wrapper input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Validation error message styling */
+  .error {
+    color: #d9534f;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    text-align: left;
+    width: 100%;
+  }
+  
